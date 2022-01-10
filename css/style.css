@@ -119,7 +119,7 @@ body {
   }
   .nav-bar {
     justify-content: space-around;
-    gap: 150px;
+/*     gap: 150px; */
   }
   .nav-link {
     display: none;
