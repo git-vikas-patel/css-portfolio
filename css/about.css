@@ -1,0 +1,35 @@
+.about{
+    text-align: center;
+    padding: 130px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.about h2{
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    font-size: 30px;
+    color: #393E46;
+}
+.about-girl{
+    height: 500px;
+    float: left;
+    padding:0 70px 70px 70px;
+}
+.about-content p {
+    line-height: 2;
+    text-align: left;
+    width: 90%;
+}
+@media (max-width: 800px) {
+    .about-girl{
+        padding:0 70px 70px 70px;
+        float: none;
+    }
+    .about-content p {
+        line-height: 2;
+        text-align: left;
+        width: 100%;
+    }
+}
