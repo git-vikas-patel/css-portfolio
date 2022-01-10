@@ -12,6 +12,10 @@
     font-size: 30px;
     color: #393E46;
 }
+.about-content{
+    display: flex;
+    align-items: center;
+}
 .about-girl{
     height: 500px;
     float: left;
@@ -23,13 +27,16 @@
     width: 90%;
 }
 @media (max-width: 800px) {
-    .about-girl{
-        padding:0 70px 70px 70px;
-        float: none;
+    .about-content{
+        display: flex;
+        flex-direction: column;
     }
-    .about-content p {
-        line-height: 2;
-        text-align: left;
-        width: 100%;
+    .about-girl {
+        height: 500px;
+        width: fit-content;
+        /* float: left; */
+        text-align: center;
+        padding: 0 ;
+        padding-left: 10px;
     }
 }
