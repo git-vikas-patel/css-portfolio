@@ -13,6 +13,13 @@
   .imag img {
     height: 400px;
   }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    gap: 10px;
+}
 }
 form {
   display: flex;
