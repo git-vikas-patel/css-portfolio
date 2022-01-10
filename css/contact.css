@@ -10,21 +10,16 @@
     /* overflow: hidden; */
     flex-direction: column-reverse;
   }
+  form{
+    width: 100% !important;
+  }
   .imag img {
     height: 300px;
-    width:300px;
+    width: 300px;
   }
   .contact-first-side {
-  width: 100%;
-  padding-left: 10px !important;
-}
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 100% !important;
-    margin-top: 50px;
-    gap: 10px;
-}
+    padding-left: 10px !important;
+  }
 }
 form {
   display: flex;
