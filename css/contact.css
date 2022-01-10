@@ -11,8 +11,13 @@
     flex-direction: column-reverse;
   }
   .imag img {
-    height: 400px;
+    height: 300px;
+    width:300px;
   }
+  .contact-first-side {
+  width: 100%;
+  padding-left: 10px;
+}
   form {
     display: flex;
     flex-direction: column;
