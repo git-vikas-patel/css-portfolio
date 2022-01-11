@@ -9,7 +9,7 @@ body{
     /* transform: translate(-50%,-50%); */
     right: 100%;
     height: 100vh;
-    width: 486px;
+   width: auto;
     padding-bottom: 500rem;
     background-color: #222831;
     
