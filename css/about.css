@@ -17,6 +17,7 @@
     align-items: center;
 }
 .about-girl{
+    width: 400px;
     height: 500px;
     float: left;
     padding:0 70px 70px 70px;
@@ -33,10 +34,11 @@
     }
     .about-girl {
         height: 500px;
-        width: fit-content;
+        width: 344px;
         /* float: left; */
         text-align: center;
         padding: 0 ;
         padding-left: 10px;
+        margin-bottom: 20px;
     }
 }
